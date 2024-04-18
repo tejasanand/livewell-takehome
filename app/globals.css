@@ -72,6 +72,7 @@
     }
     body {
       @apply bg-background text-foreground;
+      background-color:#F2F5F4;
     }
   }
 
@@ -81,4 +82,36 @@
 
   .sendButton{
     margin-left:3%;
+  }
+
+  .userTypeStyle{
+    font-weight: bold;
+    color:rgb(233, 134, 13);
+    font-size: larger;
+  }
+
+  .spline{
+    width: 500px;
+    height:500px;
+    margin-top:10%;
+  }
+
+  .main{
+    display: flex;
+    margin-left: 10%;
+  }
+
+  .messageUI{
+    margin-top:20%;
+  }
+  .userStyling{
+    margin-bottom:4%;
+  }
+
+  .messageLine{
+    margin-top: 4%;
+  }
+
+  .scrollThread{
+    background-color:rgb(233,236,228);
   }
